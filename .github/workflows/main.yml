@@ -1,1 +1,15 @@
+name: Main CI Workflow
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
+jobs:
+  run-build:
+    name: Call Reuseable Workflow
+    uses: /JustWalkPass/node-template/.github/workflows/node-build-template.yml@main
+    with:
+      node-verion: '20'
