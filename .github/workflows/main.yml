@@ -10,6 +10,6 @@ on:
 jobs:
   run-build:
     name: Call Reuseable Workflow
-    uses: /JustWalkPass/node-template/.github/workflows/node-build-template.yml@main
+    uses: JustWalkPass/node-template/.github/workflows/node-build-template.yml@main
     with:
       node-verion: '20'
