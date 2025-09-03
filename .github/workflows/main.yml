@@ -12,4 +12,4 @@ jobs:
     name: Call Reuseable Workflow
     uses: JustWalkPass/node-template/.github/workflows/node-build-template.yml@main
     with:
-      node-verion: '20'
+      node-version: '20'
